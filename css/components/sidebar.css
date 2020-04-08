@@ -1,0 +1,29 @@
+.sidebar {
+  position: fixed;
+  width: 100%;
+  height: fit-content;
+  left: 0;
+  top: 0;
+  right:0;
+  background-color: white;
+  padding: 20px 0px;
+  display: flex;
+  z-index: 1;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  text-decoration: none;
+  margin: auto 50px;
+  justify-content: flex-end;
+}
+
+.sidebar img {
+  width: 50px;
+  margin: 0px 50px;
+}
+
+

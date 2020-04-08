@@ -1,0 +1,146 @@
+/* Main banner */
+
+.banner {
+  background-image: linear-gradient(-225deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 90%), url(../../images/banner.jpg) ;
+  background-size: cover;
+  background-position: center;
+  color: #1E629F;
+  padding: 120px 0px;
+  height: 350px;
+}
+
+.banner-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner h1 {
+  font-size: 42px;
+  font-weight: bolder;
+}
+
+.banner p {
+  font-weight: lighter;
+  opacity: 0.8;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.banner img {
+  height: 256px;
+  display: flex;
+  justify-content: space-between;
+  flex-basis:auto;
+  border-radius: 6px;
+  margin: 20px;
+}
+
+#introduction {
+  flex-basis:50px;
+  flex-grow: 1;
+}
+
+/* Logo */
+
+#logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#logo h2 {
+  font-size: 18px;
+  margin-right: 100px;
+}
+
+#logo img {
+  width: 225px;
+  height: 40px;
+  margin: auto 0px;
+}
+
+/* Banner description */
+
+.banner-description {
+  background-image: url(../../images/description.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #1E629F;
+  padding: 20px 0px;
+  height: 400px;
+}
+
+/* Banner contact */
+
+.banner-contact {
+  background-color: #f0f2ef;
+  background-size: cover;
+  background-position: center;
+  color: #1E629F;
+  padding: 20px 0px;
+  height: fit-content;
+}
+
+.banner-contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner-contact img {
+  height: 256px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis:auto;
+  border-radius: 6px;
+  margin: 20px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 720px) {
+  .banner {
+    padding: 20px 10px;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 720px) {
+  .banner img {
+    margin: 3em auto;
+  }
+}
+
+@media (max-width: 720px) {
+  #logo img {
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  #logo h2 {
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  #description {
+    padding: 15px;
+    background-color: rgba(255,255,255,0.8);
+  }
+}
+
+@media (max-width: 720px) {
+  .banner-description {
+    height: fit-content;
+  }
+}
+
+@media (max-width: 720px) {
+  .banner-contact img {
+    margin: 20px auto;
+  }
+}
+
+
+
